@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.header{
+  display:flex;
+  align-items: center;
+  background: #545652;
+  height: 28px;
+  font-size: 12px;
+  line-height: 28px;
+  position:fixed;
+  top:0;
+  right:0;
+  left: 0;
+  width:100%;
+  color: rgba(213, 213, 213, 1);
+  .left{
+    margin-left:12px;
+    display:flex;
+    align-items: center;
+    flex:1;
+    li{
+      margin-right:24px;
+    }
+  }
+  .right{
+    display:flex;
+    align-items: center;
+    margin-right:23px;
+    .download{
+      margin-right:25px;
+    }
+  }
+}
+.main{
+  margin-top:28px;
+}
