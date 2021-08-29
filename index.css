@@ -18,6 +18,10 @@ button {
   border: none;
 }
 
+body {
+  width: 1440px;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -100,6 +104,7 @@ button {
   margin-top: 143px;
   padding: 0 200px;
   display: flex;
+  flex: 1;
 }
 .main .left {
   width: 675px;
@@ -234,6 +239,118 @@ button {
 }
 .main .left .rank .head .nonfiction {
   font-size: 13px;
+}
+.main .left .rank .list {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.main .left .rank .list li {
+  display: flex;
+  width: 337px;
+  margin-bottom: 31px;
+}
+.main .left .rank .list li .img {
+  background: url(./images/rank1.png) no-repeat center/contain;
+  width: 80px;
+  height: 120px;
+}
+.main .left .rank .list li .detail {
+  margin-left: 31px;
+}
+.main .left .rank .list li .detail .name {
+  font-size: 15px;
+  line-height: 24px;
+}
+.main .left .rank .list li .detail .star {
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  line-height: 16px;
+  color: #E09015;
+  margin-bottom: 6px;
+}
+.main .left .rank .list li .detail .star .img {
+  width: 55px;
+  height: 11px;
+  background: url(./images/star.png) no-repeat center/contain;
+  margin-right: 7px;
+}
+.main .left .rank .list li .detail .author {
+  font-size: 13px;
+  line-height: 21px;
+  color: #111111;
+}
+.main .left .rank .list li .detail .sort {
+  font-size: 13px;
+  line-height: 21px;
+  color: #111111;
+}
+.main .left .rank .list li .detail .ebook {
+  margin-top: 2px;
+  width: 58px;
+  height: 17px;
+  background: #A1A1A1;
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+}
+.main .left .shop {
+  margin-top: 113px;
+}
+.main .left .shop .head {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #DDDDDD;
+}
+.main .left .shop .head .title {
+  font-size: 18px;
+  color: #111111;
+  margin-right: 15px;
+}
+.main .left .shop .head .all {
+  font-size: 13px;
+}
+.main .left .shop .example {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  display: flex;
+}
+.main .left .shop .example .img {
+  width: 130px;
+  height: 172px;
+  background: url(./images/shop1.png) no-repeat center/contain;
+  margin-right: 20px;
+}
+.main .left .shop .example .detail {
+  margin-top: 23px;
+}
+.main .left .shop .example .detail .name {
+  font-size: 23px;
+  line-height: 32px;
+  color: #111111;
+  display: inline-block;
+  margin-right: 23px;
+}
+.main .left .shop .example .detail .price {
+  font-size: 17px;
+  line-height: 32px;
+  color: #E76648;
+  display: inline-block;
+}
+.main .left .shop .example .detail .describe {
+  margin-top: 9px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #9B9B9B;
+}
+.main .aside {
+  width: 300px;
 }
 
 /*# sourceMappingURL=index.css.map */

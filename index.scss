@@ -16,6 +16,9 @@ a {
 button{
   border:none;
 }
+body{
+  width:1440px;
+}
 .header{
   position:fixed;
   top:0;
@@ -97,6 +100,7 @@ button{
   margin-top:143px;
   padding:0 200px;
   display: flex;
+  flex:1;
   .left{
     width: 675px;
     margin-right:65px;
@@ -207,8 +211,117 @@ button{
         }
       }
       .list{
-        
+        display: flex;
+        flex:1;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top:15px;
+        li{
+          display: flex;
+          width:337px;
+          margin-bottom: 31px;
+          .img{
+          background: url(./images/rank1.png) no-repeat center/contain;
+          width: 80px;
+          height: 120px;
+          }
+          .detail{
+            margin-left:31px;
+            .name{
+              font-size: 15px;
+              line-height: 24px;
+            }
+            .star{
+              margin-top:4px;
+              display: flex;
+              align-items: center;
+              .img{
+                width: 55px;
+                height: 11px;
+                background: url(./images/star.png) no-repeat center/contain;
+                margin-right:7px;
+              }
+              font-size: 10px;
+              line-height: 16px;
+              color: #E09015;
+              margin-bottom:6px;
+            }
+            .author{
+              font-size: 13px;
+              line-height: 21px;          
+              color: #111111;
+            }
+            .sort{
+              font-size: 13px;
+              line-height: 21px;          
+              color: #111111;
+            }
+            .ebook{
+              margin-top:2px;
+              width: 58px;
+              height: 17px;
+              background: #A1A1A1;
+              color: #FFFFFF;
+              font-size: 13px;
+              line-height: 17px;
+              text-align: center;
+            }
+          }
+        }
       }
     }
+    .shop{
+      margin-top:113px;
+      .head{
+        height:36px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #DDDDDD;
+        .title{
+          font-size: 18px;
+          color: #111111;
+          margin-right:15px;
+        }
+        .all{
+          font-size: 13px;
+        }
+      }
+      .example{
+        margin-top:15px;
+        margin-bottom:30px;
+        display:flex;
+        .img{
+          width: 130px;
+          height: 172px;
+          background: url(./images/shop1.png) no-repeat center/contain;
+          margin-right:20px;
+        }
+        .detail{
+          margin-top:23px;
+          .name{
+            font-size: 23px;
+            line-height: 32px;
+            color: #111111;
+            display:inline-block;
+            margin-right:23px;
+          }
+          .price{
+            font-size: 17px;
+            line-height: 32px;
+            color: #E76648;
+            display:inline-block;
+          }
+          .describe{
+            margin-top:9px;
+            font-size: 14px;
+            line-height: 20px;
+            color: #9B9B9B;
+          }
+        }
+      }
+    }
+  }
+  .aside{
+    width:300px;
   }
 }
