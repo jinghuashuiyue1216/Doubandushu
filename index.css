@@ -159,5 +159,11 @@ button {
   display: flex;
   flex-wrap: wrap;
 }
+.main .left .new .list .item {
+  height: 234px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 
 /*# sourceMappingURL=index.css.map */

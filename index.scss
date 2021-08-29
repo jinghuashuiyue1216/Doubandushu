@@ -154,7 +154,13 @@ button{
       .list{
         display:flex;
         flex-wrap: wrap;
-        
+        .item{
+          height:234px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          
+        }
       }
     }
   }
