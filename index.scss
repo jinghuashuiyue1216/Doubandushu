@@ -12,49 +12,87 @@ li {
 a {
   text-decoration: none;
 }
+button{
+  border:none;
+}
 .header{
-  display:flex;
-  align-items: center;
-  background: #545652;
-  height: 28px;
-  font-size: 12px;
-  line-height: 28px;
   position:fixed;
   top:0;
   right:0;
   left: 0;
   width:100%;
-  color: rgba(213, 213, 213, 1);
-  .left{
-    margin-left:12px;
+  .nav{
     display:flex;
     align-items: center;
-    flex:1;
-    li{
-      margin-right:24px;
+    background: #545652;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    color: rgba(213, 213, 213, 1);
+    .left{
+      margin-left:12px;
+      display:flex;
+      align-items: center;
+      flex:1;
+      li{
+        margin-right:24px;
+      }
+    }
+    .right{
+      display:flex;
+      align-items: center;
+      margin-right:23px;
+      .download{
+        margin-right:25px;
+      }
     }
   }
-  .right{
-    display:flex;
-    align-items: center;
-    margin-right:23px;
-    .download{
-      margin-right:25px;
+  .subnav{
+    background: #F6F6F1;
+    .search{
+      height:76px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: flex-end;
+      padding-left: 200px;
+      padding-bottom: 19px;
+      border-bottom:1px solid #E9E9E2;
+      .logo{
+        width: 141px;
+        height: 32px;
+        margin-right:48px;
+      }
+      input{
+        width: 461px;
+        height: 30px;
+        background: #FFFFFF;
+        border:none;
+        box-sizing:border-box;
+        &:focus {
+          outline: none;//点击时不出现边框
+        }
+      }
+      .search-icon{
+        width: 33px;
+        height: 30px;
+        background: url(./images/search-icon.png) no-repeat center/contain;
+      }
+    }
+    ul{
+      height:39px;
+      display: flex;
+      align-items: center;
+      padding-left: 200px;
+      font-size: 14px;
+      line-height: 23px;
+      color: #614E3C;
+      li{
+        margin-right:29px;
+      }
     }
   }
 }
 .main{
-  margin-top:28px;
-  padding:0 200px;
-  .nav{
-    margin-left:-200px;
-    background: #F6F6F1;
-    .search{
-      display: flex;
-      align-items: flex-end;
-      padding-left:200px;
-      padding-bottom: 19px;
-      border-bottom:1px solid #E9E9E2;
-    }
-  }
+  margin-top:143px;
+  
 }
