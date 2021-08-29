@@ -47,6 +47,18 @@ a {
 
 .main {
   margin-top: 28px;
+  padding: 0 200px;
+}
+.main .nav {
+  margin-left: -200px;
+  background: #F6F6F1;
+}
+.main .nav .search {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 200px;
+  padding-bottom: 19px;
+  border-bottom: 1px solid #E9E9E2;
 }
 
 /*# sourceMappingURL=index.css.map */
