@@ -153,15 +153,41 @@ button{
       }
       .list{
         display:flex;
+        flex:1;
+        justify-content: space-between;
         flex-wrap: wrap;
         .item{
           height:234px;
+          width:115px;
           display: flex;
           flex-direction: column;
           justify-content: flex-end;
-          
+          .name{
+            font-size: 14px;
+            line-height: 15px;
+            margin-top:6px;
+            margin-bottom:5px;
+          }
+          .author{
+            font-size: 13px;
+            line-height: 13px;
+            color: #333333;
+          }
+          .img{
+            width: 115px;
+            height: 161px;
+          }
+          @for $i from 1 through 10 {
+            &:nth-child(#{$i}) .img{
+              background:url(./images/new#{$i}.png) no-repeat center/contain;
+            }
+          }
         }
       }
+    }
+    .rank{
+      margin-top:85px;
+     
     }
   }
 }
