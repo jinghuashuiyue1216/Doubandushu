@@ -151,6 +151,11 @@ button{
           }
         }
       }
+      .list{
+        display:flex;
+        flex-wrap: wrap;
+        
+      }
     }
   }
 }

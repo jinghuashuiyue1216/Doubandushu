@@ -155,5 +155,9 @@ button {
   line-height: 16px;
   margin-right: 8px;
 }
+.main .left .new .list {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /*# sourceMappingURL=index.css.map */
