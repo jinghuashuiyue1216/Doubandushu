@@ -214,7 +214,26 @@ button {
   background: url(./images/new10.png) no-repeat center/contain;
 }
 .main .left .rank {
-  margin-top: 85px;
+  margin-top: 81px;
+}
+.main .left .rank .head {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #DDDDDD;
+  box-sizing: border-box;
+}
+.main .left .rank .head .title {
+  font-size: 18px;
+  color: #111111;
+  margin-right: 15px;
+}
+.main .left .rank .head .fiction {
+  font-size: 13px;
+  margin-right: 13px;
+}
+.main .left .rank .head .nonfiction {
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=index.css.map */
