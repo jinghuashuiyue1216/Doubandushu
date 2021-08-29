@@ -319,9 +319,77 @@ body{
           }
         }
       }
+      .list{
+        display: flex;
+        align-items: center;
+        height: 183px;
+        li{
+        margin-right: 34px;
+        .img{
+          width: 106px;
+          height: 140px;
+          margin-bottom: 11px;
+          background: url(./images/shop1.png) center center / contain no-repeat;
+          } 
+        .name {
+            font-size: 13px;
+            line-height: 14px;
+          }
+        .price {
+            margin-top: 4px;
+            font-size: 13px;
+            line-height: 13px;
+            color: rgb(75, 75, 75);
+           }
+        }
+       } 
+      }
+    .ebook{
+      margin-top: 63px;
+       .head {
+        height: 36px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid rgb(221, 221, 221);
+          .title {
+          font-size: 18px;
+          color: rgb(17, 17, 17);
+          margin-right: 15px;
+           }
+         .all {
+          font-size: 13px;
+          }
+        }
+       .subhead {
+          height: 43px;
+          display: flex;
+          align-items: center;
+          .title {
+          font-size: 15px;
+          color: rgb(17, 17, 17);
+          margin-right: 14px;
+          }
+          .all {
+            font-size: 15px;
+          }
+        }
+        .list {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          li {
+            width: 106px;
+            height: 201px;
+            margin-bottom: 21px;
+            margin-right: 34px;
+        }
+      }
+       
+
+    }
+    .aside{
+      width:300px;
     }
   }
-  .aside{
-    width:300px;
-  }
-}
+  
