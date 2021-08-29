@@ -11,6 +11,7 @@ li {
 
 a {
   text-decoration: none;
+  color: #3377AA;
 }
 
 button {
@@ -97,6 +98,62 @@ button {
 
 .main {
   margin-top: 143px;
+  padding: 0 200px;
+  display: flex;
+}
+.main .left {
+  width: 675px;
+  margin-right: 65px;
+}
+.main .left .new .head {
+  height: 51px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #DDDDDD;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+.main .left .new .head .left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.main .left .new .head .left .title {
+  font-size: 18px;
+  color: #111111;
+  margin-right: 15px;
+}
+.main .left .new .head .left .more {
+  font-size: 13px;
+}
+.main .left .new .head .right {
+  display: flex;
+  align-items: center;
+  flex: none;
+}
+.main .left .new .head .right .circle {
+  margin-right: 5px;
+  display: flex;
+}
+.main .left .new .head .right .circle li {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #9B9A8F;
+  margin-right: 8px;
+}
+.main .left .new .head .right .arrow {
+  display: flex;
+}
+.main .left .new .head .right .arrow li {
+  width: 18px;
+  height: 18px;
+  background: #9B9A8E;
+  border-radius: 9px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 16px;
+  margin-right: 8px;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -11,6 +11,7 @@ li {
 
 a {
   text-decoration: none;
+  color: #3377AA;
 }
 button{
   border:none;
@@ -94,5 +95,62 @@ button{
 }
 .main{
   margin-top:143px;
-  
+  padding:0 200px;
+  display: flex;
+  .left{
+    width: 675px;
+    margin-right:65px;
+    .new{
+      .head{
+        height: 51px;
+        box-sizing:border-box;
+        border-bottom:1px solid #DDDDDD;
+        display: flex;
+        align-items: center;
+        padding-top:15px;
+        .left{
+          flex:1;
+          display: flex;
+          align-items: center;
+          .title{
+          font-size: 18px;
+          color: #111111;
+          margin-right:15px;
+          }
+          .more{
+            font-size: 13px;
+          }
+        }
+        .right{
+          display: flex;
+          align-items: center;
+          flex:none;
+          .circle{
+            margin-right:5px;
+            display: flex;
+            li{
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+              background: #9B9A8F;
+              margin-right:8px;
+            }
+          }
+          .arrow{
+            display:flex;
+            li{
+              width: 18px;
+              height: 18px; 
+              background: #9B9A8E;
+              border-radius: 9px;
+              color: #FFFFFF;
+              text-align: center;
+              line-height:16px;
+              margin-right:8px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
