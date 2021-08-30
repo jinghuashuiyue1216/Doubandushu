@@ -459,18 +459,18 @@ body {
   font-size: 13px;
   margin-right: 16px;
 }
-.main .left .comment .list {
+.main .left .comment .list li {
   height: 167px;
   box-sizing: border-box;
   border-bottom: 1px solid #EAEAEA;
 }
-.main .left .comment .list .img {
+.main .left .comment .list li .img {
   background: url(./images/comment1.png) no-repeat center/contain;
   width: 75px;
   height: 107px;
   margin-right: 15px;
 }
-.main .left .comment .list .right .name {
+.main .left .comment .list li .right .name {
   font-size: 15px;
   line-height: 27px;
 }
