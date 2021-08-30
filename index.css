@@ -546,6 +546,52 @@ body {
   font-size: 13px;
   line-height: 18px;
 }
+.main .top .aside .sale {
+  margin-top: 27px;
+}
+.main .top .aside .sale .title {
+  box-sizing: border-box;
+  height: 36px;
+  border-bottom: 1px solid #DDDDDD;
+  font-size: 18px;
+  line-height: 36px;
+  color: #111111;
+}
+.main .top .aside .sale .list {
+  margin-top: 12px;
+}
+.main .top .aside .sale .list li {
+  display: flex;
+  align-items: center;
+  height: 53px;
+  border-bottom: 1px solid #DDDDDD;
+}
+.main .top .aside .sale .list li .left {
+  flex: 1;
+}
+.main .top .aside .sale .list li .left span {
+  font-size: 14px;
+  line-height: 23px;
+  color: #111111;
+}
+.main .top .aside .sale .list li .left span .name {
+  margin-left: 5px;
+  color: #3377AA;
+}
+.main .top .aside .sale .list li .left .author {
+  margin-left: 16px;
+  font-size: 13px;
+  line-height: 21px;
+  color: #666666;
+}
+.main .top .aside .sale .list li .buy {
+  font-size: 13px;
+  line-height: 13px;
+  width: 39px;
+  flex: none;
+  color: #999999;
+  background: transparent;
+}
 .main .footer {
   margin-top: 23px;
   display: flex;
