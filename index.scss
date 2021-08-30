@@ -433,6 +433,9 @@ body{
         height:167px;
         box-sizing: border-box;
         border-bottom: 1px solid  #EAEAEA;
+        li{
+          
+        }
         .img{
           background: url(./images/comment1.png) no-repeat center/contain;
           width: 75px;
@@ -440,7 +443,10 @@ body{
           margin-right:15px;
         }
         .right{
-           
+          .name{
+            font-size: 15px;
+            line-height: 27px;
+          }
         }
       }
     }

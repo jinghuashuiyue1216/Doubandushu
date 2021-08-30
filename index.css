@@ -470,6 +470,10 @@ body {
   height: 107px;
   margin-right: 15px;
 }
+.main .left .comment .list .right .name {
+  font-size: 15px;
+  line-height: 27px;
+}
 .main .aside {
   width: 300px;
 }
