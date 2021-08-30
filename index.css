@@ -663,10 +663,12 @@ body {
   align-items: center;
 }
 .main .top .aside .our .share li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-right: 20px;
 }
 .main .top .aside .our .share li .icon {
-  background: url(./images/douban.png) no-repeat center/contain;
   width: 40px;
   height: 40px;
   margin-bottom: 7px;
@@ -674,11 +676,15 @@ body {
 .main .top .aside .our .share li .name {
   font-size: 12px;
   line-height: 12px;
-  color: #3377AA;
-  text-align: center;
 }
-.main .top .aside .our .share li:first-child .name {
-  text-align: end;
+.main .top .aside .our .share li:first-child .icon {
+  background: url(./images/douban.png) no-repeat center/contain;
+}
+.main .top .aside .our .share li:nth-child(2) .icon {
+  background: url(./images/weibo.png) no-repeat center/contain;
+}
+.main .top .aside .our .share li:nth-child(3) .icon {
+  background: url(./images/weixin.png) no-repeat center/contain;
 }
 .main .footer {
   margin-top: 23px;

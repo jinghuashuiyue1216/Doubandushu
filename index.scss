@@ -640,9 +640,11 @@ body{
         display: flex;
         align-items: center;
         li{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
           margin-right:20px;
           .icon{
-            background: url(./images/douban.png) no-repeat center/contain;
             width: 40px;
             height: 40px;
             margin-bottom:7px;
@@ -650,11 +652,15 @@ body{
           .name{
             font-size: 12px;
             line-height: 12px;
-            color: #3377AA;
-            text-align: center;
           }
-          &:first-child .name{
-            text-align: end;
+          &:first-child .icon{
+            background: url(./images/douban.png) no-repeat center/contain;
+          }
+          &:nth-child(2) .icon{
+            background: url(./images/weibo.png) no-repeat center/contain;
+          }
+          &:nth-child(3) .icon{
+            background: url(./images/weixin.png) no-repeat center/contain;
           }
         }
       }
