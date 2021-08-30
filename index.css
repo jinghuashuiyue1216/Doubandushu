@@ -505,6 +505,46 @@ body {
 }
 .main .top .aside {
   width: 300px;
+  margin-top: 69px;
+}
+.main .top .aside .tag .title {
+  font-size: 16px;
+  line-height: 32px;
+  height: 33px;
+  border-bottom: 1px solid #DDDDDD;
+}
+.main .top .aside .tag .list .kind {
+  padding-bottom: 1px;
+  padding-top: 11px;
+  border-bottom: 1px solid #DDDDDD;
+}
+.main .top .aside .tag .list .kind .name {
+  font-size: 13px;
+  line-height: 22px;
+  color: #111111;
+}
+.main .top .aside .tag .list .kind .category {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+.main .top .aside .tag .list .kind .category li {
+  padding: 2px 11px 0 11px;
+  height: 22px;
+  line-height: 20px;
+  font-size: 13px;
+  background: #F5F5F5;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.main .top .aside .tag .list .kind .category .more {
+  width: 55px;
+  height: 20px;
+  padding: 3px 11px 1px 10px;
+  background: #F5F5F5;
+  color: #AAAAAA;
+  font-size: 13px;
+  line-height: 18px;
 }
 .main .footer {
   margin-top: 23px;
