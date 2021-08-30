@@ -688,6 +688,7 @@ body {
   border-top: 1px solid #DDDDDD;
   padding-top: 7px;
   box-sizing: border-box;
+  margin-bottom: 63px;
 }
 .main .footer .left {
   font-size: 13px;
