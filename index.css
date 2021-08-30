@@ -349,7 +349,99 @@ body {
   line-height: 20px;
   color: #9B9B9B;
 }
-.main .aside {
+.main .left .shop .list {
+  display: flex;
+  align-items: center;
+  height: 183px;
+}
+.main .left .shop .list li {
+  margin-right: 34px;
+}
+.main .left .shop .list li .img {
+  width: 106px;
+  height: 140px;
+  margin-bottom: 11px;
+  background: url(./images/shop1.png) center center/contain no-repeat;
+}
+.main .left .shop .list li .name {
+  font-size: 13px;
+  line-height: 14px;
+}
+.main .left .shop .list li .price {
+  margin-top: 4px;
+  font-size: 13px;
+  line-height: 13px;
+  color: #4b4b4b;
+}
+.main .left .ebook {
+  margin-top: 63px;
+}
+.main .left .ebook .head {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dddddd;
+}
+.main .left .ebook .head .title {
+  font-size: 18px;
+  color: #111111;
+  margin-right: 15px;
+}
+.main .left .ebook .head .all {
+  font-size: 13px;
+}
+.main .left .ebook .subhead {
+  height: 43px;
+  display: flex;
+  align-items: center;
+}
+.main .left .ebook .subhead .title {
+  font-size: 15px;
+  color: #111111;
+  margin-right: 14px;
+}
+.main .left .ebook .subhead .all {
+  font-size: 15px;
+}
+.main .left .ebook .list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .left .ebook .list li {
+  width: 106px;
+  margin-bottom: 21px;
+  margin-right: 34px;
+}
+.main .left .ebook .list li:last-child {
+  margin-right: 0;
+}
+.main .left .ebook .list li:nth-child(5) {
+  margin-right: 0;
+}
+.main .left .ebook .list li .img {
+  width: 106px;
+  height: 158px;
+  background: url(./images/ebook1.png) no-repeat center/contain;
+  margin-bottom: 11px;
+}
+.main .left .ebook .list li .name {
+  display: block;
+  width: 106px;
+  font-size: 13px;
+  line-height: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main .left .ebook .list li .price {
+  margin-top: 4px;
+  font-size: 13px;
+  line-height: 13px;
+  color: #4B4B4B;
+}
+.main .left .aside {
   width: 300px;
 }
 
