@@ -592,6 +592,94 @@ body {
   color: #999999;
   background: transparent;
 }
+.main .top .aside .book {
+  margin-top: 22px;
+}
+.main .top .aside .book .title {
+  height: 33px;
+  line-height: 33px;
+  font-size: 16px;
+  color: #111111;
+  border-bottom: 1px solid #DDDDDD;
+}
+.main .top .aside .book .list {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main .top .aside .book .list li {
+  margin-bottom: 27px;
+  width: 85px;
+}
+.main .top .aside .book .list li .img {
+  background: url(./images/book1.png) no-repeat center/contain;
+  width: 85px;
+  height: 123px;
+  margin-bottom: 10px;
+}
+.main .top .aside .book .list li .name {
+  display: block;
+  white-space: nowrap;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  line-height: 21px;
+}
+.main .top .aside .our {
+  margin-top: 9px;
+}
+.main .top .aside .our .connect {
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+  color: #222222;
+  border-bottom: 1px solid #DDDDDD;
+}
+.main .top .aside .our .cooperation {
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 23px;
+  color: #111111;
+}
+.main .top .aside .our .cooperation .mail {
+  display: inline-block;
+  background: url(./images/mail.png) no-repeat center/contain;
+  width: 121px;
+  height: 12px;
+}
+.main .top .aside .our .focus {
+  margin-top: 25px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+  color: #222222;
+  border-bottom: 1px solid #DDDDDD;
+}
+.main .top .aside .our .share {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.main .top .aside .our .share li {
+  margin-right: 20px;
+}
+.main .top .aside .our .share li .icon {
+  background: url(./images/douban.png) no-repeat center/contain;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 7px;
+}
+.main .top .aside .our .share li .name {
+  font-size: 12px;
+  line-height: 12px;
+  color: #3377AA;
+  text-align: center;
+}
+.main .top .aside .our .share li:first-child .name {
+  text-align: end;
+}
 .main .footer {
   margin-top: 23px;
   display: flex;
