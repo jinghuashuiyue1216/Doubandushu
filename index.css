@@ -441,7 +441,25 @@ body {
   line-height: 13px;
   color: #4B4B4B;
 }
-.main .left .aside {
+.main .left .comment {
+  margin-top: 71px;
+}
+.main .left .comment .head {
+  height: 38px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dddddd;
+}
+.main .left .comment .head .title {
+  font-size: 18px;
+  color: #111111;
+  margin-right: 17px;
+}
+.main .left .comment .head .all {
+  font-size: 13px;
+  margin-right: 16px;
+}
+.main .aside {
   width: 300px;
 }
 
