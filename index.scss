@@ -429,9 +429,31 @@ body{
           margin-right:16px;
           }
       }
+      .list{
+        height:167px;
+        box-sizing: border-box;
+        border-bottom: 1px solid  #EAEAEA;
+        .img{
+          background: url(./images/comment1.png) no-repeat center/contain;
+          width: 75px;
+          height: 107px;
+          margin-right:15px;
+        }
+        .right{
+           
+        }
+      }
     }
   }
   .aside{
     width:300px;
   }
-} 
+  .footer{
+    display:flex;
+    justify-content: space-between;
+    .list{
+      display:flex;
+      align-items: center;
+    }
+  } 
+}

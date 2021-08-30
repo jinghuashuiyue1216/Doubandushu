@@ -459,8 +459,27 @@ body {
   font-size: 13px;
   margin-right: 16px;
 }
+.main .left .comment .list {
+  height: 167px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #EAEAEA;
+}
+.main .left .comment .list .img {
+  background: url(./images/comment1.png) no-repeat center/contain;
+  width: 75px;
+  height: 107px;
+  margin-right: 15px;
+}
 .main .aside {
   width: 300px;
+}
+.main .footer {
+  display: flex;
+  justify-content: space-between;
+}
+.main .footer .list {
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=index.css.map */
