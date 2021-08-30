@@ -103,14 +103,16 @@ body {
 .main {
   margin-top: 143px;
   padding: 0 200px;
+}
+.main .top {
   display: flex;
   flex: 1;
 }
-.main .left {
+.main .top .left {
   width: 675px;
   margin-right: 65px;
 }
-.main .left .new .head {
+.main .top .left .new .head {
   height: 51px;
   box-sizing: border-box;
   border-bottom: 1px solid #DDDDDD;
@@ -118,39 +120,39 @@ body {
   align-items: center;
   padding-top: 15px;
 }
-.main .left .new .head .left {
+.main .top .left .new .head .left {
   flex: 1;
   display: flex;
   align-items: center;
 }
-.main .left .new .head .left .title {
+.main .top .left .new .head .left .title {
   font-size: 18px;
   color: #111111;
   margin-right: 15px;
 }
-.main .left .new .head .left .more {
+.main .top .left .new .head .left .more {
   font-size: 13px;
 }
-.main .left .new .head .right {
+.main .top .left .new .head .right {
   display: flex;
   align-items: center;
   flex: none;
 }
-.main .left .new .head .right .circle {
+.main .top .left .new .head .right .circle {
   margin-right: 5px;
   display: flex;
 }
-.main .left .new .head .right .circle li {
+.main .top .left .new .head .right .circle li {
   width: 5px;
   height: 5px;
   border-radius: 50%;
   background: #9B9A8F;
   margin-right: 8px;
 }
-.main .left .new .head .right .arrow {
+.main .top .left .new .head .right .arrow {
   display: flex;
 }
-.main .left .new .head .right .arrow li {
+.main .top .left .new .head .right .arrow li {
   width: 18px;
   height: 18px;
   background: #9B9A8E;
@@ -160,111 +162,111 @@ body {
   line-height: 16px;
   margin-right: 8px;
 }
-.main .left .new .list {
+.main .top .left .new .list {
   display: flex;
   flex: 1;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.main .left .new .list .item {
+.main .top .left .new .list .item {
   height: 234px;
   width: 115px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
-.main .left .new .list .item .name {
+.main .top .left .new .list .item .name {
   font-size: 14px;
   line-height: 15px;
   margin-top: 6px;
   margin-bottom: 5px;
 }
-.main .left .new .list .item .author {
+.main .top .left .new .list .item .author {
   font-size: 13px;
   line-height: 13px;
   color: #333333;
 }
-.main .left .new .list .item .img {
+.main .top .left .new .list .item .img {
   width: 115px;
   height: 161px;
 }
-.main .left .new .list .item:nth-child(1) .img {
+.main .top .left .new .list .item:nth-child(1) .img {
   background: url(./images/new1.png) no-repeat center/contain;
 }
-.main .left .new .list .item:nth-child(2) .img {
+.main .top .left .new .list .item:nth-child(2) .img {
   background: url(./images/new2.png) no-repeat center/contain;
 }
-.main .left .new .list .item:nth-child(3) .img {
+.main .top .left .new .list .item:nth-child(3) .img {
   background: url(./images/new3.png) no-repeat center/contain;
 }
-.main .left .new .list .item:nth-child(4) .img {
+.main .top .left .new .list .item:nth-child(4) .img {
   background: url(./images/new4.png) no-repeat center/contain;
 }
-.main .left .new .list .item:nth-child(5) .img {
+.main .top .left .new .list .item:nth-child(5) .img {
   background: url(./images/new5.png) no-repeat center/contain;
 }
-.main .left .new .list .item:nth-child(6) .img {
+.main .top .left .new .list .item:nth-child(6) .img {
   background: url(./images/new6.png) no-repeat center/contain;
 }
-.main .left .new .list .item:nth-child(7) .img {
+.main .top .left .new .list .item:nth-child(7) .img {
   background: url(./images/new7.png) no-repeat center/contain;
 }
-.main .left .new .list .item:nth-child(8) .img {
+.main .top .left .new .list .item:nth-child(8) .img {
   background: url(./images/new8.png) no-repeat center/contain;
 }
-.main .left .new .list .item:nth-child(9) .img {
+.main .top .left .new .list .item:nth-child(9) .img {
   background: url(./images/new9.png) no-repeat center/contain;
 }
-.main .left .new .list .item:nth-child(10) .img {
+.main .top .left .new .list .item:nth-child(10) .img {
   background: url(./images/new10.png) no-repeat center/contain;
 }
-.main .left .rank {
+.main .top .left .rank {
   margin-top: 81px;
 }
-.main .left .rank .head {
+.main .top .left .rank .head {
   height: 36px;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #DDDDDD;
   box-sizing: border-box;
 }
-.main .left .rank .head .title {
+.main .top .left .rank .head .title {
   font-size: 18px;
   color: #111111;
   margin-right: 15px;
 }
-.main .left .rank .head .fiction {
+.main .top .left .rank .head .fiction {
   font-size: 13px;
   margin-right: 13px;
 }
-.main .left .rank .head .nonfiction {
+.main .top .left .rank .head .nonfiction {
   font-size: 13px;
 }
-.main .left .rank .list {
+.main .top .left .rank .list {
   display: flex;
   flex: 1;
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 15px;
 }
-.main .left .rank .list li {
+.main .top .left .rank .list li {
   display: flex;
   width: 337px;
   margin-bottom: 31px;
 }
-.main .left .rank .list li .img {
+.main .top .left .rank .list li .img {
   background: url(./images/rank1.png) no-repeat center/contain;
   width: 80px;
   height: 120px;
 }
-.main .left .rank .list li .detail {
+.main .top .left .rank .list li .detail {
   margin-left: 31px;
 }
-.main .left .rank .list li .detail .name {
+.main .top .left .rank .list li .detail .name {
   font-size: 15px;
   line-height: 24px;
 }
-.main .left .rank .list li .detail .star {
+.main .top .left .rank .list li .detail .star {
   margin-top: 4px;
   display: flex;
   align-items: center;
@@ -273,23 +275,23 @@ body {
   color: #E09015;
   margin-bottom: 6px;
 }
-.main .left .rank .list li .detail .star .img {
+.main .top .left .rank .list li .detail .star .img {
   width: 55px;
   height: 11px;
   background: url(./images/star.png) no-repeat center/contain;
   margin-right: 7px;
 }
-.main .left .rank .list li .detail .author {
+.main .top .left .rank .list li .detail .author {
   font-size: 13px;
   line-height: 21px;
   color: #111111;
 }
-.main .left .rank .list li .detail .sort {
+.main .top .left .rank .list li .detail .sort {
   font-size: 13px;
   line-height: 21px;
   color: #111111;
 }
-.main .left .rank .list li .detail .ebook {
+.main .top .left .rank .list li .detail .ebook {
   margin-top: 2px;
   width: 58px;
   height: 17px;
@@ -299,134 +301,134 @@ body {
   line-height: 17px;
   text-align: center;
 }
-.main .left .shop {
+.main .top .left .shop {
   margin-top: 113px;
 }
-.main .left .shop .head {
+.main .top .left .shop .head {
   height: 36px;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #DDDDDD;
 }
-.main .left .shop .head .title {
+.main .top .left .shop .head .title {
   font-size: 18px;
   color: #111111;
   margin-right: 15px;
 }
-.main .left .shop .head .all {
+.main .top .left .shop .head .all {
   font-size: 13px;
 }
-.main .left .shop .example {
+.main .top .left .shop .example {
   margin-top: 15px;
   margin-bottom: 30px;
   display: flex;
 }
-.main .left .shop .example .img {
+.main .top .left .shop .example .img {
   width: 130px;
   height: 172px;
   background: url(./images/shop1.png) no-repeat center/contain;
   margin-right: 20px;
 }
-.main .left .shop .example .detail {
+.main .top .left .shop .example .detail {
   margin-top: 23px;
 }
-.main .left .shop .example .detail .name {
+.main .top .left .shop .example .detail .name {
   font-size: 23px;
   line-height: 32px;
   color: #111111;
   display: inline-block;
   margin-right: 23px;
 }
-.main .left .shop .example .detail .price {
+.main .top .left .shop .example .detail .price {
   font-size: 17px;
   line-height: 32px;
   color: #E76648;
   display: inline-block;
 }
-.main .left .shop .example .detail .describe {
+.main .top .left .shop .example .detail .describe {
   margin-top: 9px;
   font-size: 14px;
   line-height: 20px;
   color: #9B9B9B;
 }
-.main .left .shop .list {
+.main .top .left .shop .list {
   display: flex;
   align-items: center;
   height: 183px;
 }
-.main .left .shop .list li {
+.main .top .left .shop .list li {
   margin-right: 34px;
 }
-.main .left .shop .list li .img {
+.main .top .left .shop .list li .img {
   width: 106px;
   height: 140px;
   margin-bottom: 11px;
   background: url(./images/shop1.png) center center/contain no-repeat;
 }
-.main .left .shop .list li .name {
+.main .top .left .shop .list li .name {
   font-size: 13px;
   line-height: 14px;
 }
-.main .left .shop .list li .price {
+.main .top .left .shop .list li .price {
   margin-top: 4px;
   font-size: 13px;
   line-height: 13px;
   color: #4b4b4b;
 }
-.main .left .ebook {
+.main .top .left .ebook {
   margin-top: 63px;
 }
-.main .left .ebook .head {
+.main .top .left .ebook .head {
   height: 36px;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #dddddd;
 }
-.main .left .ebook .head .title {
+.main .top .left .ebook .head .title {
   font-size: 18px;
   color: #111111;
   margin-right: 15px;
 }
-.main .left .ebook .head .all {
+.main .top .left .ebook .head .all {
   font-size: 13px;
 }
-.main .left .ebook .subhead {
+.main .top .left .ebook .subhead {
   height: 43px;
   display: flex;
   align-items: center;
 }
-.main .left .ebook .subhead .title {
+.main .top .left .ebook .subhead .title {
   font-size: 15px;
   color: #111111;
   margin-right: 14px;
 }
-.main .left .ebook .subhead .all {
+.main .top .left .ebook .subhead .all {
   font-size: 15px;
 }
-.main .left .ebook .list {
+.main .top .left .ebook .list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
-.main .left .ebook .list li {
+.main .top .left .ebook .list li {
   width: 106px;
   margin-bottom: 21px;
   margin-right: 34px;
 }
-.main .left .ebook .list li:last-child {
+.main .top .left .ebook .list li:last-child {
   margin-right: 0;
 }
-.main .left .ebook .list li:nth-child(5) {
+.main .top .left .ebook .list li:nth-child(5) {
   margin-right: 0;
 }
-.main .left .ebook .list li .img {
+.main .top .left .ebook .list li .img {
   width: 106px;
   height: 158px;
   background: url(./images/ebook1.png) no-repeat center/contain;
   margin-bottom: 11px;
 }
-.main .left .ebook .list li .name {
+.main .top .left .ebook .list li .name {
   display: block;
   width: 106px;
   font-size: 13px;
@@ -435,55 +437,97 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.main .left .ebook .list li .price {
+.main .top .left .ebook .list li .price {
   margin-top: 4px;
   font-size: 13px;
   line-height: 13px;
   color: #4B4B4B;
 }
-.main .left .comment {
+.main .top .left .comment {
   margin-top: 71px;
 }
-.main .left .comment .head {
+.main .top .left .comment .head {
   height: 38px;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #dddddd;
 }
-.main .left .comment .head .title {
+.main .top .left .comment .head .title {
   font-size: 18px;
   color: #111111;
   margin-right: 17px;
 }
-.main .left .comment .head .all {
+.main .top .left .comment .head .all {
   font-size: 13px;
   margin-right: 16px;
 }
-.main .left .comment .list li {
+.main .top .left .comment .list li {
   height: 167px;
   box-sizing: border-box;
   border-bottom: 1px solid #EAEAEA;
+  display: flex;
+  padding-top: 23px;
 }
-.main .left .comment .list li .img {
+.main .top .left .comment .list li:first-child {
+  height: 158px;
+  padding-top: 15px;
+}
+.main .top .left .comment .list li:last-child {
+  border-bottom: none;
+}
+.main .top .left .comment .list li .img {
   background: url(./images/comment1.png) no-repeat center/contain;
   width: 75px;
   height: 107px;
   margin-right: 15px;
 }
-.main .left .comment .list li .right .name {
+.main .top .left .comment .list li .right .name {
   font-size: 15px;
   line-height: 27px;
 }
-.main .aside {
+.main .top .left .comment .list li .right .author {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 21px;
+  color: #666666;
+}
+.main .top .left .comment .list li .right .star {
+  background: url(./images/star.png) no-repeat center/contain;
+  width: 55px;
+  height: 11px;
+  margin-left: 4px;
+  display: inline-block;
+}
+.main .top .left .comment .list li .right .content {
+  font-size: 13px;
+  line-height: 20px;
+  color: #111111;
+}
+.main .top .aside {
   width: 300px;
 }
 .main .footer {
+  margin-top: 23px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #DDDDDD;
+  padding-top: 7px;
+  box-sizing: border-box;
+}
+.main .footer .left {
+  font-size: 13px;
+  line-height: 21px;
+  color: #999999;
 }
 .main .footer .list {
   display: flex;
   align-items: center;
+  font-size: 13px;
+  line-height: 21px;
+}
+.main .footer .list li {
+  margin-left: 11px;
 }
 
 /*# sourceMappingURL=index.css.map */
